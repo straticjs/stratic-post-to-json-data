@@ -1,0 +1,28 @@
+{
+  "name": "stratic-post-to-json-data",
+  "version": "1.0.0",
+  "description": "Take a Vinyl file with Stratic post information and make its contents JSON describing the post",
+  "main": "index.js",
+  "dependencies": {
+    "concat-stream": "^1.5.1",
+    "lodash": "^4.8.2",
+    "through2": "^2.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/strugee/stratic-post-to-json-data.git"
+  },
+  "keywords": [
+    "stratic",
+    "gulpplugin"
+  ],
+  "author": "Alex Jordan <alex@strugee.net>",
+  "license": "LGPL-3.0+",
+  "bugs": {
+    "url": "https://github.com/strugee/stratic-post-to-json-data/issues"
+  },
+  "homepage": "https://github.com/strugee/stratic-post-to-json-data"
+}
