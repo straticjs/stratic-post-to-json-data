@@ -2,6 +2,10 @@
 
 [Gulp][1] plugin to take a Vinyl file with [Stratic][2] post information (for example, something that's been parsed with [`stratic-parse-header`][3]) and make the file contents JSON describing the post. This is particularly useful when paired with something like [`gulp-jade-template`][4].
 
+## DEPRECATED
+
+This module is deprecated - its design is flawed so I've stopped maintaining it. Use [gulp-attach-to-template](https://github.com/strugee/gulp-attach-to-template) instead.
+
 ## Installation
 
     npm install stratic-post-to-json-data
