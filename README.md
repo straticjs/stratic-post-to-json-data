@@ -1,5 +1,7 @@
 # `stratic-post-to-json-data`
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/straticjs/stratic-post-to-json-data.svg)](https://greenkeeper.io/)
+
 [Gulp][1] plugin to take a Vinyl file with [Stratic][2] post information (for example, something that's been parsed with [`stratic-parse-header`][3]) and make the file contents JSON describing the post. This is particularly useful when paired with something like [`gulp-jade-template`][4].
 
 ## DEPRECATED
